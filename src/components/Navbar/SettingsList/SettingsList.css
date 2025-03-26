@@ -1,0 +1,41 @@
+.settings-list {
+  position: absolute;
+  top: 4rem;
+  right: 1rem;
+  background: var(--primary-color);
+  z-index: 2;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+  transform-origin: top right;
+}
+
+.settings-list.visible {
+  transform: scale(1);
+}
+
+.settings-list .setting {
+  background: none;
+  border: none;
+  border-radius: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.2rem 1rem;
+  font-size: 0.9rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+.settings-list .setting:hover {
+  background: var(--primary-color-hover);
+}
+
+.settings-list .setting i {
+  font-size: 1.1rem;
+}

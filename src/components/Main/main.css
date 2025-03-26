@@ -1,0 +1,27 @@
+/* 'Poppins', serif */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* 'Roboto', sans-serif */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");
+/* 'Raleway', sans-serif */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap");
+
+:root {
+  --selected-font: "Poppins", serif;
+
+  --primary-color: rgb(50, 50, 50);
+  --primary-color-hover: rgb(65, 65, 65);
+  --secondary-color: rgb(255, 165, 92);
+  --border-color: white;
+  --shadow-color: white;
+  --white-color: white;
+  --stay-white: white;
+
+  --site-max-width: 1400px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--selected-font);
+}
