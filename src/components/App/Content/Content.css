@@ -1,0 +1,38 @@
+.content {
+  max-width: 1400px;
+  padding: 1rem;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  color: var(--white-color);
+}
+
+.content .timer {
+  font-size: 3.5rem;
+}
+
+.content .word-list {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content .typing-display {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content .typing-stats {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.typing-stats h2,
+.typing-stats p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
