@@ -49,7 +49,7 @@ function SettingsList({ settingsList }) {
       </button>
       <button className="setting" onClick={toggleFont}>
         <i className="uil uil-font"></i>
-        <p>Poppins</p>
+        <p>{selectedFont}</p>
       </button>
     </ul>
   );
