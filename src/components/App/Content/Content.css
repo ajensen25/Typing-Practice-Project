@@ -18,9 +18,13 @@
   text-align: center;
 }
 
-.content .typing-display {
-  font-size: 2rem;
-  text-align: center;
+.content .typing-display input {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--white-color);
 }
 
 .content .typing-stats {
@@ -30,9 +34,12 @@
   margin-top: 3rem;
 }
 
-.typing-stats h2,
 .typing-stats p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.typing-stats span {
+  font-size: 1.5rem;
 }
